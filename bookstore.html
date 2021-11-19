@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bookstore</title>
+<style>
+  .logo{
+  width: 400px;
+  height: 280px; 
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 25, 186);
+  float: right;
+  font-size: 35px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+li {
+  float: left;
+}
+
+ li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(157, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+}
+ 
+ * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin: auto;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+    background-color: rgb(92, 244, 255); 
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+.price{
+  text-align: center; 
+  font-size: x-large;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.line{
+  flex: 1;
+  height: 5px;
+  background-color: rgb(136, 136, 136);
+}
+
+.a{
+  display: flex;
+  align-items: center; 
+ 
+}
+
+
+.footer{
+  background-color: rgb(250, 102, 127);
+  color: white;
+  height: 450px;
+  padding: 0px;
+  position: relative;
+}
+
+.footer-bottom{
+  text-align: center; 
+  background-color: rgb(255, 55, 121);
+  position: absolute;
+  height: 50px;
+  bottom: 0px;
+  left: 0px; 
+  padding-top: 15px;
+  width: 100%;
+  }
+
+.footer-content{
+  height: 400px;
+  display: flex;
+  padding-left: 20px;
+}
+.footer-section{
+  flex: 1;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  
+}
+
+
+ </style>
+ 
+ <body style="background-color:rgb(255, 25, 186);color: rgb(136, 136, 136);">
+  <div>
+    <img src="./bookstore1.png" class="logo">
+  <ul>   
+    <li><a href="./OnlineBookStore.html"><b>Home</b></a></li>
+    <li><a href="#events"><b>Events</b></a></li>
+    <li><a href="#contact"><b>Contact</b></a></li>
+    <li><a href="#about"><b>About</b></a></li>
+  </ul>
+</div>
+    
+<div style="padding-left: 5%;padding-right: 5%;padding-top: 25%;padding-bottom: 5%;">
+    <div class="container">
+        <div class="a">
+          <div class="line"></div>
+             <h1><b>Bookstore</b></h1>
+          <div class="line"></div>
+        </div>
+      <div class="row">
+         <div class="column"><img src="./aerogrammes.jpg" style="width: 100%;"><p class="price" ><b>$20.00</b></p></div>
+         <div class="column"><img src="./divinecomedy.jpg" style="width: 100%;"><p class="price" ><b>$9.00</b></p></div>
+         <div class="column"><img src="./endoftheworldbreslau.jpg" style="width: 100%;"><p class="price" ><b>$14.00</b></p></div>
+         <div class="column"><img src="./first4notes.jpg" style="width: 100%;"><p class="price" ><b>$4.00</b></p></div>
+         
+      </div>
+      <div class="row">
+        <div class="column"><img src="./fromthememoirs.jpg" style="width: 100%;"><p class="price" ><b>$25.00</b></p></div>
+        <div class="column"><img src="./getintrouble.jpg" style="width: 100%;"><p class="price" ><b>$9.00</b></p></div>
+        <div class="column"><img src="./heartofasamurai.jpg" style="width: 100%;"><p class="price" ><b>$14.00</b></p></div>
+        <div class="column"><img src="./josephanton.jpg" style="width: 100%;"><p class="price" ><b>$4.00</b></p></div>
+        
+     </div>
+     <div class="row">
+        <div class="column"><img src="./wealthofnations.jpg" style="width: 100%;"><p class="price" ><b>$25.00</b></p></div>
+        <div class="column"><img src="./masterandmargarita.jpg" style="width: 100%;"><p class="price" ><b>$9.00</b></p></div>
+        <div class="column"><img src="./morethanthis.jpg" style="width: 100%;"><p class="price" ><b>$14.00</b></p></div>
+        <div class="column"><img src="./smallfortune.jpg" style="width: 100%;"><p class="price" ><b>$4.00</b></p></div>
+        
+     </div>
+     <div class="row">
+        <div class="column"><img src="./subliminal.jpg" style="width: 100%;"><p class="price" ><b>$25.00</b></p></div>
+        <div class="column"><img src="./teaspoonearthandsea.jpg" style="width: 100%;"><p class="price" ><b>$9.00</b></p></div>
+        <div class="column"><img src="./tellthewolvesimhome.jpg" style="width: 100%;"><p class="price" ><b>$14.00</b></p></div>
+        <div class="column"><img src="./thegoldfinch.jpg" style="width: 100%;"><p class="price" ><b>$4.00</b></p></div>
+     </div>
+      
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2>About</h2>
+        About Scribd<br>
+        Press<br>
+        Our blog<br>
+        Join our team!<br>
+        Contact us<br>
+        Invite friends<br>
+        Gifts<br>
+        Scribd for enterprise<br>
+      </div>
+      <div class="footer-section support">
+        <h2>Support</h2>
+        Help / FAQ<br>
+        Accessibility<br>
+        Purchase help<br>
+        AdChoices<br>
+        Publishers<br>
+      </div>
+      <div class="footer-section legal">
+        <h2>Legal</h2>
+        Terms<br>
+        Privacy<br>
+        Copyright<br>
+        Cookie Preferences<br>
+      </div>
+      <div class="footer-section social">
+        <h2>Social</h2>
+        Instagram<br>
+        Twitter<br>
+        Facebook<br>
+        Pinterest<br>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright-Hand6Tea
+    </div>
+    </div>
+</div>
+</body>
+</html>
